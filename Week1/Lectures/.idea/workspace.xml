@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="90ec237e-7282-4351-88aa-2919785540bb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Vlg09qGovRkALN6q4CUwmYJ434" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Doctests in is_palindrome_A1" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="Lectures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/is_palindrome_A1.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Doctests in is_palindrome_A1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90ec237e-7282-4351-88aa-2919785540bb" name="Default Changelist" comment="" />
+      <created>1577832869192</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577832869192</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="169" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577843270843">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="169" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/57.27.1309.741@57.27.1309.741" timestamp="1577843270843" />
+    <state x="448" y="160" width="515" height="472" key="EnvironmentVariablesDialog" timestamp="1577835466148">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="448" y="160" width="515" height="472" key="EnvironmentVariablesDialog/57.27.1309.741@57.27.1309.741" timestamp="1577835466148" />
+    <state width="1286" height="175" key="GridCell.Tab.0.bottom" timestamp="1577847933455">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state width="1286" height="175" key="GridCell.Tab.0.bottom/57.27.1309.741@57.27.1309.741" timestamp="1577847933455" />
+    <state width="1286" height="175" key="GridCell.Tab.0.center" timestamp="1577847933449">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state width="1286" height="175" key="GridCell.Tab.0.center/57.27.1309.741@57.27.1309.741" timestamp="1577847933449" />
+    <state width="1286" height="175" key="GridCell.Tab.0.left" timestamp="1577847933444">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state width="1286" height="175" key="GridCell.Tab.0.left/57.27.1309.741@57.27.1309.741" timestamp="1577847933444" />
+    <state width="1286" height="175" key="GridCell.Tab.0.right" timestamp="1577847933450">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state width="1286" height="175" key="GridCell.Tab.0.right/57.27.1309.741@57.27.1309.741" timestamp="1577847933450" />
+    <state x="200" y="31" key="SettingsEditor" timestamp="1577843227438">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="200" y="31" key="SettingsEditor/57.27.1309.741@57.27.1309.741" timestamp="1577843227438" />
+    <state x="374" y="89" key="search.everywhere.popup" timestamp="1577938625158">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="374" y="89" key="search.everywhere.popup/57.27.1309.741@57.27.1309.741" timestamp="1577938625158" />
+  </component>
+</project>
