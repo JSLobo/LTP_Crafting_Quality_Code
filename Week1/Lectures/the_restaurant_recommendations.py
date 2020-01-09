@@ -37,6 +37,7 @@ would produce this list:
 # The file containing the restaurant data.
 FILENAME = 'restaurants_small.txt'
 
+
 def recommend(file, price, cuisines_list):
     """(file open for reading, str, list of str) -> list of [int, str] list
 
@@ -65,6 +66,7 @@ def recommend(file, price, cuisines_list):
     # We're done! Return that sorted list.
     return result
 
+
 def build_rating_list(name_to_rating, names_final):
     """ (dict of {str: int}, list of str) -> list of list of {str, int}
 
@@ -81,6 +83,7 @@ def build_rating_list(name_to_rating, names_final):
 
     """
 
+
 def filter_by_cuisine(names_matching_price, cuisine_to_names, cuisines_list):
     """ (list of str, dict of {str: list of str}, list of str) -> list of str
 
@@ -96,13 +99,48 @@ def filter_by_cuisine(names_matching_price, cuisine_to_names, cuisines_list):
     ['Queen St. Cafe', 'Dumplings R Us']
     """
 
-def read_restaurants(file):
+
+def read_restaurants(filename):
     """ (file) -> (dict, dict, dict)
     Return a tuple of three dictionaries based on the information in the file:
     - a dict of {restaurant name: rating%}
     - a dict of {price: list of restaurant names}
-    - a dict of {cusine: list of restaurant names}
+    - a dict of {cuisine: list of restaurant names}
     """
+
+    file = open(filename, "r")
+
     name_to_rating = {}
     price_to_names = {'$': [], '$$': [], '$$$': [], '$$$$': []}
     cuisine_to_names = {}
+    restaurant_name = ''
+    rating = ''
+    price = ''
+    cuisine = ''
+
+    count = 1
+    for line in file:
+        if count % 5 == 1 and line is not "":
+            restaurant_name = line
+            count = count + 1
+        elif count % 5 == 2 and line is not "":
+            rating = line
+            count = count + 1
+        elif count % 5 == 3 and line is not "":
+            price = line
+            count = count + 1
+        elif count % 5 == 4 and line is not "":
+            cuisine = line
+            cuisines = get_cuisines_separated(cuisine)
+            count = count + 1
+        elif count % 5 == 0 or line is "":
+            count = 1
+
+    file.close()
+    return (name_to_rating, price_to_names, cuisine_to_names)
+
+
+def get_cuisines_separated(cuisine):
+    cuisines = ['']
+
+    return cuisines
