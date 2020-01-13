@@ -6,21 +6,6 @@ class TestSwapK(unittest.TestCase):
     """ Test class for function a1.swap_k. """
 
     # Add your test methods for a1.swap_k here.
-    def test_swap_k_1_item_list(self):
-        """
-        Test swap_k where there are 1 item list and
-        swap the first k items of the list with the last k items of the this,
-        into the precondition rule k == 1.
-        """
-
-        actual = [1]
-        k = 1
-        expected = [1]
-
-        a1.swap_k(actual, k)
-
-        self.assertEqual(actual, expected)
-
     def test_swap_k_2_items_list_k_zero(self):
         """
         Test swap_k where there are 2 items list and

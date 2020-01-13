@@ -38,12 +38,28 @@ class TestStockPriceSummary(unittest.TestCase):
         expected = (0, 0)
         self.assertEqual(actual, expected)
 
-    def test_stock_price_summary_one_price_change(self):
+    def test_stock_price_summary_one_positive_price_change(self):
         """
-        Test stock_price_summary where there is only price change.
+        Test stock_price_summary where there is only one positive price change.
         """
         actual = a1.stock_price_summary([0.01])
         expected = (0.01, 0)
+        self.assertEqual(actual, expected)
+
+    def test_stock_price_summary_one_negative_price_change(self):
+        """
+        Test stock_price_summary where there is only one negative price change.
+        """
+        actual = a1.stock_price_summary([-0.01])
+        expected = (0, -0.01)
+        self.assertEqual(actual, expected)
+
+    def test_stock_price_summary_one_not_price_change(self):
+        """
+        Test stock_price_summary where there is only price change value with zero.
+        """
+        actual = a1.stock_price_summary([0])
+        expected = (0, 0)
         self.assertEqual(actual, expected)
 
 
