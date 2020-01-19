@@ -2,21 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90ec237e-7282-4351-88aa-2919785540bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week2/Assignment/a1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week2/Assignment/test_num_buses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week2/Assignment/test_stock_price_summary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week2/Assignment/test_swap_k.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week2/Lectures/divisors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week2/Lectures/duplicates.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week2/Lectures/palindrome_v1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week2/Lectures/palindrome_v2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week2/Lectures/test_divisors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week2/Lectures/test_duplicates.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week2/Lectures/vowels.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week2/Lectures/wordplaystr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2/Assignment/.idea/Assignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2/Lectures/.idea/Lectures.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week3/Lectures/.idea/Lectures.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week3/Lectures/binary_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week3/Lectures/bubble_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week3/Lectures/insertion_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week3/Lectures/linear_function_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week3/Lectures/linear_function_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week3/Lectures/linear_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week3/Lectures/logarithmic_function_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week3/Lectures/quadratic_function_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week3/Lectures/selection_sort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_restaurant_recommendations.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_restaurant_recommendations.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Week2/Lectures" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Week3/Lectures" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -106,10 +104,10 @@
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state x="448" y="160" width="515" height="472" key="EnvironmentVariablesDialog/57.27.1309.741@57.27.1309.741" timestamp="1577835466148" />
-    <state x="489" y="155" width="424" height="484" key="FileChooserDialogImpl" timestamp="1578850225956">
+    <state x="489" y="155" width="424" height="484" key="FileChooserDialogImpl" timestamp="1579463999440">
       <screen x="67" y="27" width="1213" height="997" />
     </state>
-    <state x="489" y="155" width="424" height="484" key="FileChooserDialogImpl/67.27.1213.997@67.27.1213.997" timestamp="1578850225956" />
+    <state x="489" y="155" width="424" height="484" key="FileChooserDialogImpl/67.27.1213.997@67.27.1213.997" timestamp="1579463999440" />
     <state width="1286" height="175" key="GridCell.Tab.0.bottom" timestamp="1578515486256">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
@@ -135,11 +133,11 @@
       <screen x="67" y="27" width="1213" height="997" />
     </state>
     <state width="606" height="499" key="XDebugger.FullValuePopup/67.27.1213.997@67.27.1213.997" timestamp="1578770221141" />
-    <state x="354" y="292" key="com.intellij.ide.util.TipDialog" timestamp="1578847361326">
+    <state x="354" y="292" key="com.intellij.ide.util.TipDialog" timestamp="1579463982728">
       <screen x="67" y="27" width="1213" height="997" />
     </state>
     <state x="367" y="224" key="com.intellij.ide.util.TipDialog/57.27.1309.741@57.27.1309.741" timestamp="1578516593567" />
-    <state x="354" y="292" key="com.intellij.ide.util.TipDialog/67.27.1213.997@67.27.1213.997" timestamp="1578847361326" />
+    <state x="354" y="292" key="com.intellij.ide.util.TipDialog/67.27.1213.997@67.27.1213.997" timestamp="1579463982728" />
     <state x="479" y="316" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578530575326">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
