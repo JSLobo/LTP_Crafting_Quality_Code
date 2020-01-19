@@ -11,7 +11,6 @@ def remove_shared(L1, L2):
     >>> list_2
     [2, 4, 5, 7]
     """
-
     for v in L2:
         if v in L1:
             L1.remove(v)
